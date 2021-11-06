@@ -1,6 +1,6 @@
 """
-RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+RadioPlayer, Telegram Voice Chat Bot
+Copyright (c) 2021  Asm Safone <https://github.com/shukurenaibotcreate>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -136,7 +136,7 @@ async def get_uptime(_, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m.reply_text(
-        f"{emoji.ROBOT} **Radio Player V3.0**\n"
+        f"{emoji.ROBOT} **Radio Player**\n"
         f"- **Uptime:** `{uptime}`\n"
         f"- **Restarted:** `{START_TIME_ISO}`"
     )
