@@ -1,6 +1,6 @@
 """
-RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+RadioPlayer, Telegram Voice Chat Bot
+Copyright (c) 2021  Asm Safone <https://github.com/shukurenaibotcreate>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -48,7 +48,7 @@ async def main():
     async with bot:
         await mp.start_radio()
         try:
-            await USER.join_chat("AsmSafone")
+            await USER.join_chat("shu kurenai")
         except UserAlreadyParticipant:
             pass
         except Exception as e:
@@ -64,7 +64,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nRadio Player Bot Started, Join @AsmSafone!")
+print("\n\nRadio Player Bot Started, Join @shukurenai007!")
 bot.send(
     functions.bots.SetBotCommands(
         commands=[
@@ -179,11 +179,11 @@ async def restart(_, message: Message):
             target=stop_and_restart()
             ).start()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @AsmSafone For Update!**")
+        await k.edit("✅ **Restarted Successfully! \nJoin @shukurenai007 For Update!**")
         await k.reply_to_message.delete()
     except:
         pass
 
 idle()
-print("\n\nRadio Player Bot Stopped, Join @AsmSafone!")
+print("\n\nRadio Player Bot Stopped, Join @shukurenai007!")
 bot.stop()
