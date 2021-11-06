@@ -1,22 +1,22 @@
 # Telegram Radio Player V3 [![Mentioned in Awesome Telegram Calls](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/tgcalls/awesome-tgcalls)
-![GitHub Repo stars](https://img.shields.io/github/stars/AsmSafone/RadioPlayerV3?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/AsmSafone/RadioPlayerV3?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/AsmSafone/RadioPlayerV3)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/AsmSafone/RadioPlayerV3)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AsmSafone/RadioPlayerV3)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/AsmSafone/RadioPlayerV3)
-![GitHub contributors](https://img.shields.io/github/contributors/AsmSafone/RadioPlayerV3?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/AsmSafone/RadioPlayerV3?color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AsmSafone/RadioPlayerV3)
+![GitHub Repo stars](https://img.shields.io/github/stars/shukurenaibotcreate/RadioPlayer?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/shukurenaibotcreate/RadioPlayer?color=green&style=flat)
+![GitHub issues](https://img.shields.io/github/issues/shukurenaibotcreate/RadioPlayer)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/shukurenaibotcreate/RadioPlayer)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/shukurenaibotcreate/RadioPlayer)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/shukurenaibotcreate/RadioPlayer)
+![GitHub contributors](https://img.shields.io/github/contributors/shukurenaibotcreate/RadioPlayer?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/shukurenaibotcreate/RadioPlayer?color=red)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shukurenaibotcreate/RadioPlayer)
 ![GitHub](https://img.shields.io/github/license/AsmSafone/RadioPlayerV3)
-[![Bot Updates](https://img.shields.io/badge/RadioPlayerV3-Updates%20Channel-green)](https://t.me/AsmSafone)
-[![Bot Support](https://img.shields.io/badge/RadioPlayerV3-Support%20Group-blue)](https://t.me/AsmSupport)
+[![Bot Updates](https://img.shields.io/badge/RadioPlayer-Updates%20Channel-green)](https://t.me/shukurenai007)
+[![Bot Support](https://img.shields.io/badge/RadioPlayer-Support%20Group-blue)](https://t.me/shukurenairobot007)
 
 
 An Advanced Telegram Bot to Play Nonstop Radio/Music/YouTube Live in Channel or Group Voice Chats.
 
 This is also the source code of the bot which is being used for playing
-Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [AsmSupport](https://t.me/AsmSupport) Group.
+Radio in [shu kurenai](https://t.me/shukurenai007) Channel & Music in [shu kurenai](https://t.me/shukurenairobot007) Group.
 
 ## Special Features
 
@@ -75,7 +75,7 @@ NOTE: Make Sure You Have Started A Voice Chat In Your Channel/Group Before Deplo
 
 ```sh
 $ git clone https://github.com/shukurenaibotcreate/Radioplayer
-$ cd RadioPlayerV3
+$ cd RadioPlayer
 $ sudo apt install git curl python3-pip ffmpeg -y
 $ pip3 install -U pip
 $ pip3 install -r requirements.txt
@@ -86,8 +86,8 @@ $ python3 main.py
 
 ## License
 ```sh
-RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+RadioPlayer Telegram Voice Chat Bot
+Copyright (c) 2021  shukurenaibotcreate <https://github.com/shukurenaibotcreate>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
