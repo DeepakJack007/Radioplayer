@@ -1,6 +1,6 @@
 """
-RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+RadioPlayer, Telegram Voice Chat Bot
+Copyright (c) 2021  Asm Safone <https://github.com/shukurenaibotcreate>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -31,11 +31,11 @@ buttons = [
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/shukurenai007"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/shukurenairobot007"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/shukurenaibotcreate/RadioPlayer"),
             ]
          ]
 
@@ -47,9 +47,9 @@ async def search(client, query):
         answers.append(
             InlineQueryResultPhoto(
                 title="Deploy Your Own Radio Player",
-                thumb_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
-                photo_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
-                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @AsmSupport 👑</b>",
+                thumb_url="https://telegra.ph/file/16a52ec2f672709582c05.jpg",
+                photo_url="https://telegra.ph/file/16a52ec2f672709582c05.jpg",
+                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@shukurenai007 | @shukurenairobot007 👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
